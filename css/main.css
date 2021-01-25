@@ -5,6 +5,7 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
+    overflow: hidden;
 }
 
 #freq-range {
@@ -21,4 +22,17 @@ html, body {
     border: 2px solid black;
     box-sizing: border-box;
     background-color: #123;
+}
+
+#webcam {
+    position: relative;
+    top: -2px;
+    display: none;
+}
+
+#canvas {
+    position: relative;
+    top: -2px;
+    left: -2px;
+    z-index: 9999;
 }
