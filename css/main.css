@@ -1,0 +1,24 @@
+html, body {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#freq-range {
+    width: 100%;
+}
+
+#volume-range {
+    width: 100%;
+}
+
+.theremin-box {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: #123;
+}
